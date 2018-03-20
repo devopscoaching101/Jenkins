@@ -47,7 +47,8 @@ http://publicIP:8080
 # unlocking jenkins
 You will see ,you will be asked to enter admin password, to get admin password you need to execute below 
 
-$ sudo cat /var/jenkins_home/secrets/initialAdminPassword
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
 
 copy and paste output of above. 
 
