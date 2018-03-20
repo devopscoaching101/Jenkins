@@ -21,6 +21,13 @@ $  sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/source
 $  apt-get update
 $  apt-get install jenkins
 
+# OR with script
+
+from current directory ,download installjenkins.sh
+then 
+$ chmod +x installjenkins.sh
+$ ./installjenkins.sh
+
 # check if jenkins is running
 by default, jenkins will run on port 8080 ,we will check if that port is being used by jenkins
 $ netstat -tunlp |grep 8080
